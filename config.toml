@@ -6,7 +6,7 @@ languageCode = "ja-jp"
 canonifyurls = true
 publishDir = "blog"
 hasCJKLanguage = true
-title = "思考劃一"
+title = "こっそり日記"
 
 [params]
   author = "walk_to_work"
