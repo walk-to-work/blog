@@ -1,0 +1,30 @@
+baseURL = "https://walk-to-work.github.io"
+#themesDir = "./themes"
+theme = "m10c"
+paginate = 5
+languageCode = "ja-jp"
+canonifyurls = true
+publishDir = "blog"
+hasCJKLanguage = true
+title = "思考劃一"
+
+[params]
+  author = "walk_to_work"
+  description = "整理"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/walk-to-work"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/walk_to_work"
+ [[params.social]]
+    name = "soundcloud"
+    url = "https://soundcloud.com/walk_to_work"
+
+  # Red and black theme
+  [params.style]
+    darkestColor = "#0e0e0e"
+    darkColor = "#212121"
+    primaryColor = "#ffffff"
+    lightColor = "#a2a2a2"
+    lightestColor = "#d3d3d3"

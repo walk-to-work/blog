@@ -1,0 +1,7 @@
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/walk-to-work/walk-to-work.github.io.git
+	branch = master
