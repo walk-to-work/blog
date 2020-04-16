@@ -1,3 +1,4 @@
+#!/bin/sh
 hugo
 cd blog
 git add -A
