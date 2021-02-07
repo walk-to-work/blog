@@ -2,7 +2,7 @@
 baseURL = "https://walk-to-work.github.io/"
 #themesDir = "./themes"
 theme = "m10c"
-paginate = 5
+paginate = 10
 languageCode = "ja-jp"
 canonifyurls = true
 publishDir = "blog"
