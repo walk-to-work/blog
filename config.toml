@@ -5,7 +5,7 @@ theme = "m10c"
 paginate = 10
 languageCode = "ja-jp"
 canonifyurls = true
-publishDir = "blog"
+publishDir = "docs"
 hasCJKLanguage = true
 title = "こっそり日記"
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>メモ on こっそり日記</title>
+    <link>https://walk-to-work.github.io/tags/%E3%83%A1%E3%83%A2/</link>
+    <description>Recent content in メモ on こっそり日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://walk-to-work.github.io/tags/%E3%83%A1%E3%83%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>リモートでnsysで取ったプロファイルをローカルで見る</title>
+      <link>https://walk-to-work.github.io/posts/20210127/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walk-to-work.github.io/posts/20210127/</guid>
+      <description>nsys profile -o [いい感じの名前] [実行ファイルとそのオプション] で出る、いい感じの名前.qdrepをローカルに持ってくる． NVIDIA NSIGHT SYSTEMSを開き，</description>
+    </item>
+    
+  </channel>
+</rss>

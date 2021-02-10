@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on こっそり日記</title>
+    <link>https://walk-to-work.github.io/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on こっそり日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://walk-to-work.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ラズパイでページ公開準備覚書</title>
+      <link>https://walk-to-work.github.io/posts/20200414_2/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://walk-to-work.github.io/posts/20200414_2/</guid>
+      <description>ラズパイを碌に触ったことがないなと思い、研究室にあったラズパイを拝借し、OSをブートして動かしている。 手始めにnginxでhtmlサーバ？を</description>
+    </item>
+    
+  </channel>
+</rss>
