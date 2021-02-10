@@ -1,5 +1,5 @@
 #baseURL = "https://www.walk-to.work"
-baseURL = "https://walk-to-work.github.io/"
+baseURL = "https://walk-to-work.github.io/blog"
 #themesDir = "./themes"
 theme = "m10c"
 paginate = 10
