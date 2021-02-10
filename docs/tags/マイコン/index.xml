@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>マイコン on こっそり日記</title>
-    <link>https://walk-to-work.github.io/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/</link>
+    <link>https://walk-to-work.github.io/blog/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/</link>
     <description>Recent content in マイコン on こっそり日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://walk-to-work.github.io/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://walk-to-work.github.io/blog/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（２）</title>
-      <link>https://walk-to-work.github.io/posts/ssr_test/</link>
+      <link>https://walk-to-work.github.io/blog/posts/ssr_test/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/ssr_test/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/ssr_test/</guid>
       <description>ヒーターのオンオフで温度を調整したいので、SSRを用いることにした。 Nucleo32F303K8T6を注文した際に一緒に頼んだものだ。 SSR : http://akizukidenshi.com/catalog/g/gK-00203/</description>
     </item>
     
     <item>
       <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（１）</title>
-      <link>https://walk-to-work.github.io/posts/20200414_3/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20200414_3/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20200414_3/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20200414_3/</guid>
       <description>STM32開発を学ぶにあたって、やはりプロダクトを作るのが一番早いという気持ちと、最近サラダチキンをよく作るということがあり、今回開発に至っ</description>
     </item>
     

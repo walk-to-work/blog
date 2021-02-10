@@ -2,75 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on こっそり日記</title>
-    <link>https://walk-to-work.github.io/posts/</link>
+    <link>https://walk-to-work.github.io/blog/posts/</link>
     <description>Recent content in Posts on こっそり日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://walk-to-work.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://walk-to-work.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>行優先(Row-major)でcuBLASのGemmを使う</title>
+      <link>https://walk-to-work.github.io/blog/posts/20210210/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walk-to-work.github.io/blog/posts/20210210/</guid>
+      <description>cuBLASは基本的に列優先(Col-major)であり，下図左の行列は右のように格納されることが前提とされている． これはcuBLASの元ネ</description>
+    </item>
+    
+    <item>
       <title>ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった．</title>
-      <link>https://walk-to-work.github.io/posts/20210207/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20210207/</link>
       <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20210207/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20210207/</guid>
       <description>問題1 クローンしたこのリポジトリでブログ記事が生成できない． 原因:HugoのテーマがCloneされてなかった． git submodule init git submodule update で解決した．そもそ</description>
     </item>
     
     <item>
       <title>リモートでnsysで取ったプロファイルをローカルで見る</title>
-      <link>https://walk-to-work.github.io/posts/20210127/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20210127/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20210127/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20210127/</guid>
       <description>nsys profile -o [いい感じの名前] [実行ファイルとそのオプション] で出る、いい感じの名前.qdrepをローカルに持ってくる． NVIDIA NSIGHT SYSTEMSを開き，</description>
     </item>
     
     <item>
       <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（２）</title>
-      <link>https://walk-to-work.github.io/posts/ssr_test/</link>
+      <link>https://walk-to-work.github.io/blog/posts/ssr_test/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/ssr_test/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/ssr_test/</guid>
       <description>ヒーターのオンオフで温度を調整したいので、SSRを用いることにした。 Nucleo32F303K8T6を注文した際に一緒に頼んだものだ。 SSR : http://akizukidenshi.com/catalog/g/gK-00203/</description>
     </item>
     
     <item>
       <title>2020-04-15</title>
-      <link>https://walk-to-work.github.io/posts/20200415/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20200415/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20200415/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20200415/</guid>
       <description>9時に起きた。 今日はバイトではないので研究室に向かった。寮に住むことにはなったが、引越しが完了しておらず、通学時間は1.5時間程度のままだ。</description>
     </item>
     
     <item>
       <title>ラズパイでページ公開準備覚書</title>
-      <link>https://walk-to-work.github.io/posts/20200414_2/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20200414_2/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20200414_2/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20200414_2/</guid>
       <description>ラズパイを碌に触ったことがないなと思い、研究室にあったラズパイを拝借し、OSをブートして動かしている。 手始めにnginxでhtmlサーバ？を</description>
     </item>
     
     <item>
       <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（１）</title>
-      <link>https://walk-to-work.github.io/posts/20200414_3/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20200414_3/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20200414_3/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20200414_3/</guid>
       <description>STM32開発を学ぶにあたって、やはりプロダクトを作るのが一番早いという気持ちと、最近サラダチキンをよく作るということがあり、今回開発に至っ</description>
     </item>
     
     <item>
       <title>始めた</title>
-      <link>https://walk-to-work.github.io/posts/20200414/</link>
+      <link>https://walk-to-work.github.io/blog/posts/20200414/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://walk-to-work.github.io/posts/20200414/</guid>
+      <guid>https://walk-to-work.github.io/blog/posts/20200414/</guid>
       <description>ブログを書こうと思ったが、Qiitaやはてなで書くのも味気ないと思い、Hugoで作った。 テーマはvaga氏のm10cを用いた。 シンプルでカッ</description>
     </item>
     
