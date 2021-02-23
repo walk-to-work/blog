@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://walk-to-work.github.io/blog/posts/20210223/</loc>
+    <loc>https://walk-to-work.github.io/blog/tags/blender/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://walk-to-work.github.io/blog/posts/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://walk-to-work.github.io/blog/tags/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://walk-to-work.github.io/blog/tags/unity/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://walk-to-work.github.io/blog/tags/vrchat/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://walk-to-work.github.io/blog/posts/20210223/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,11 +39,6 @@
   
   <url>
     <loc>https://walk-to-work.github.io/blog/tags/cuda/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://walk-to-work.github.io/blog/tags/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url>
   

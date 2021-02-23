@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ja-jp">
   <head>
-    <title>20210223 // こっそり日記</title>
+    <title>Vroid用衣装をCygnetちゃんに着せた // こっそり日記</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.68.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,11 +11,11 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="20210223"/>
-<meta name="twitter:description" content="Vroid用衣装をCygnetちゃんに着せた TL;DR くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（ついでにボーンも"/>
+<meta name="twitter:title" content="Vroid用衣装をCygnetちゃんに着せた"/>
+<meta name="twitter:description" content="Vroid用衣装をCygnetちゃんに着せた（自分用メモ） TL;DR くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（つ"/>
 
-    <meta property="og:title" content="20210223" />
-<meta property="og:description" content="Vroid用衣装をCygnetちゃんに着せた TL;DR くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（ついでにボーンも" />
+    <meta property="og:title" content="Vroid用衣装をCygnetちゃんに着せた" />
+<meta property="og:description" content="Vroid用衣装をCygnetちゃんに着せた（自分用メモ） TL;DR くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（つ" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://walk-to-work.github.io/blog/posts/20210223/" />
 <meta property="article:published_time" content="2021-02-23T00:00:00+00:00" />
@@ -51,7 +51,7 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">20210223</h1>
+      <h1 class ="post-title">Vroid用衣装をCygnetちゃんに着せた</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
@@ -65,20 +65,23 @@
   <title>clock</title>
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-          4 min read
+          5 min read
         </div><div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-          </div></div>
+          <a class="tag" href="https://walk-to-work.github.io/blog/tags/vrchat/">VRChat</a><a class="tag" href="https://walk-to-work.github.io/blog/tags/unity/">Unity</a><a class="tag" href="https://walk-to-work.github.io/blog/tags/blender/">Blender</a></div></div>
     </header>
     <div class="post-content">
-      <h1 id="vroid用衣装をcygnetちゃんに着せた">Vroid用衣装をCygnetちゃんに着せた</h1>
+      <h1 id="vroid用衣装をcygnetちゃんに着せた自分用メモ">Vroid用衣装をCygnetちゃんに着せた（自分用メモ）</h1>
 <h2 id="tldr">TL;DR</h2>
-<p>くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（ついでにボーンも入れて）Cygnetちゃんに着せた．その過程．</p>
+<p>くそ好みな衣装のVroid用テクスチャをBoothで発見したのでfbxにして（ついでにボーンも入れて）Cygnetちゃんに着せた．フレンドがやり方を簡単に教えてほしいと言っていたのでその過程を記す．</p>
 <h2 id="はじめに">はじめに</h2>
-<p>Vroidの衣装はテクスチャで配布されており，VRChatで使用するには一度fbx形式にしてからUnityに取り込む必要がある．それ当たって生じる問題とその解決方法を示す．</p>
+<p>Boothを見ているとバチクソ好みの服があった．ガチで良い．</p>
+<p><a href="https://renfactory.booth.pm/items/1921172">砂鳥れん - 【無料】チャイナロゴスリーブシャツ【VRoid】</a></p>
+<p>しかし，Vroid用衣装である．Cygnetちゃん等のモデルに着せてVRChatで使用するには一度fbx形式にしてからUnityに取り込む必要がある．その過程を記す．
+(これを書いた時点でセシル変身の存在を知らなかった，使ったらもっと楽になるかも，要検証)</p>
 <h2 id="環境">環境</h2>
 <ul>
 <li>Vroid Studio                  0.12.1</li>
@@ -90,12 +93,15 @@
 </li>
 <li>Unity                         2018.4.21f</li>
 </ul>
-<p>Cats&hellip;及びVRM Add&hellip;はあらかじめBlenderに導入済みで，今回は日本語化されていることを前提に書いています．</p>
-<h2 id="1vroid-studioからvrmを書き出す">1.Vroid StudioからVRMを書き出す</h2>
+<p>Cats&hellip;及びVRM Add&hellip;はあらかじめBlenderに導入済みで，今回は日本語化されていることを前提に書いています．
+参考:<a href="https://qiita.com/nutti/items/5e9ebe9c28751066b688">[Blender] アドオンのインストール・アップデート・アンインストール方法のまとめ</a></p>
+<h2 id="vroid-studioからvrmを書き出す">Vroid StudioからVRMを書き出す</h2>
 <p>プリセット衣装を選択&gt;テクスチャを読み込み&gt;衣装のパラメータを調整</p>
 <p><img src="https://walk-to-work.github.io/blog/images/20210223/1.png" alt="パラメータ調整"></p>
 <p>[エクスポート]メニューを選択後，[撮影・エクスポート]&gt;[ポリゴンの削減]&gt;[透明メッシュを削除する]にチェック．これをやっておかないと手間が増える．</p>
 <p><img src="https://walk-to-work.github.io/blog/images/20210223/2.png" alt="透明メッシュの削除にチェック"></p>
+<p>Vroid終わり</p>
+<h2 id="blenderでモデルの編集">Blenderでモデルの編集</h2>
 <p>Blenderを起動．メニューバーの[ファイル]&gt;[インポート]&gt;[VRM(.vrm)]して，ファイルを選択しインポート（Blender 2.93ではここでよく落ちる，2.83の方がいいかも）．</p>
 <p><img src="https://walk-to-work.github.io/blog/images/20210223/3.png" alt="VRM読み込み"></p>
 <p>右上の『&lt;』みたいなやつ（下図参照）のやつを引っ張りだして[CATS]を選択</p>
@@ -124,12 +130,25 @@
 <hr>
 <p>ここからは自分用メモ．オタクが好きな裾の長さなのでついでにボーンを入れてヒラヒラさせる．線で区切られている部分まで飛ばしてよい．</p>
 <p>[オブジェクトモード]&gt;Armature選択&gt;[編集モード]&gt;Hip選択&gt;キーボード&quot;e&quot;&gt;キーボード&quot;z&quot;で角度固定&gt;キーボード&quot;g&quot;で移動&amp;角度調整でボーンをいれる×8，アウトライナーで名前を変更&gt;入れたボーンを全部選択&gt;Hip選択&gt;キーボード&quot;Ctrl+p&quot;&gt;[オフセットを維持]</p>
-<p><img src="https://walk-to-work.github.io/blog/images/20210223/14.png" alt="1"></p>
-<p><img src="https://walk-to-work.github.io/blog/images/20210223/15.png" alt="1">
-<img src="https://walk-to-work.github.io/blog/images/20210223/16.png" alt="1">
-<img src="https://walk-to-work.github.io/blog/images/20210223/17.png" alt="1"></p>
+<p><img src="https://walk-to-work.github.io/blog/images/20210223/15.png" alt="1"></p>
+<p>[Object Mode]&gt;Armature選択&gt;[Pose Mode]&gt;裾のボーンをshift押しながら全部選択</p>
+<p>[Object Mode]&gt;shift押しながらArmature，meshの順に選択&gt;左上で[ウェイトペイント]に移動</p>
+<p>[ウェイト]＞[自動割り当て]</p>
+<p><img src="https://walk-to-work.github.io/blog/images/20210223/17.png" alt="1"></p>
+<p>自分用メモ終わり</p>
 <hr>
-<p><img src="https://walk-to-work.github.io/blog/images/20210223/image_name.png" alt="image_name"></p>
+<p>メニューバーで[ファイル]&gt;[エクスポート]&gt;[FBX(.fbx)]．</p>
+<p><img src="https://walk-to-work.github.io/blog/images/20210223/14.png" alt=""></p>
+<p>[トランスフォーム]&gt;[すべてFBX]にチェック（した方がいいらしい）</p>
+<p><img src="https://walk-to-work.github.io/blog/images/20210223/18.png" alt=""></p>
+<h2 id="unityでアバターを着せ替え">Unityでアバターを着せ替え</h2>
+<p>fbxファイルをUnityに取り込む．ドラッグ&amp;ドロップでもなんでもいい．</p>
+<p>マテリアルを作るなり，既存のものをコピーするなどしてVroid用のテクスチャを割り当てる．</p>
+<p>メッシュにマテリアルを割り当てる．</p>
+<p><img src="https://walk-to-work.github.io/blog/images/20210223/19.png" alt="Unity画面"></p>
+<p>後は次の火事屋様等を参考にして，着せる．着せ替えのプラグイン等を使ってもいいかなぁと思っているが，まだ導入していない．</p>
+<p><a href="https://note.com/kaziya21/n/n3a2a0948931c">VRChatアバター改変：非専用お洋服の着せ替え方法</a></p>
+<p>終わり．</p>
 
     </div>
     <div class="post-footer">
